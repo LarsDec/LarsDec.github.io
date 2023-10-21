@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(68, 109, 156);
+    margin: 0;
+}
+
+.Menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    padding: 10px;
+    margin: 8px;
+}
+
+li a.Menu {
+    text-decoration: none;
+    color: rgb(233, 236, 4);
+    padding: 10px 50px;
+}
+
+nav a.Menu:hover {
+    color: blue;
+    background-color: gray;
+}
+
+div.start {
+    padding: 5cm 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes Fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1.name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80pt;
+    animation-name: Fade;
+    animation-duration: 3s;
+    animation-play-state: running;
+    color: rgb(68, 109, 156);
+}
+
+article.Tussentitel {
+    text-align: center;
+}
+
+article.Tussentitel > h2 {
+    margin-top: 0;
+    padding: 1cm 0;
+    background-color: white;
+    font-size: 35pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article.Tussentitel>p{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border: 5px solid;
+    border-radius: 10%;
+    padding: 3cm 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
